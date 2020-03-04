@@ -1,0 +1,10 @@
+$icon-size: 60px;
+
+.icon {
+  margin-left: 0.5em;
+  box-sizing: border-box;
+  width: $icon-size;
+  height: $icon-size;
+  border-radius: $icon-size / 2;
+  display: inline-block;
+}
