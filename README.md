@@ -11,13 +11,19 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
 1.  Clone the repo
 
     ```shell
-    git clone git@github.com:redshoga/gatsby-ts-boilerplate
+    git clone git@github.com:redshoga/gatsby-ts-boilerplate your-project-name
+    ```
+    
+    or
+    
+    ```shell
+    gatsby new your-project-name https://github.com/redshoga/gatsby-ts-boilerplate
     ```
 
 1.  **Start developing.**
 
     ```shell
-    cd gatsby-ts-boilerplate
+    cd your-project-name
     yarn
     yarn start
     ```
