@@ -1,8 +1,10 @@
 # gatsby-ts-boilerplate
 
-Gatsby + Typescript + Linter + Formatter + VSCode config + Testing framework
+Gatsby + Typescript + Linter + Formatter + VSCode config + Testing framework + UI component explorer
 
 This project was based on [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default).
+
+Example build page: https://gatsby-ts-boilerplate.web.app/
 
 ## 🚀 Quick start
 
@@ -33,11 +35,11 @@ This project was based on [gatsbyjs/gatsby-starter-default](https://github.com/g
 ### 🏹 Other features
 
 - [x] Normalize.css
-- [x] VSCode config (Format _.css, _.scss, _.ts, _.tsx, _.js, _.jsx files on save)
+- [x] VSCode config (Format *.css, *.scss, *.ts, *.tsx, *.js, *.jsx files on save)
 - [x] Call `src/gatsby/node.ts` from `gatsby-node.js`
 - [x] Auto generate query type (using `gatsby-plugin-graphql-codegen`)
 - [x] Markdown pages sample code (with reference to the official [docs](https://www.gatsbyjs.org/docs/adding-markdown-pages/))
-- [ ] Example built page
+- [x] Example built page: https://gatsby-ts-boilerplate.web.app/ (Gatsby Cloud -> Firebase Hosting)
 
 ### 🔥 Default support features from [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
 
