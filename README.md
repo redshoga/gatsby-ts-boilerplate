@@ -58,6 +58,19 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
 
 Please refer to `/.vscode/extensionts.json`.
 
+## Recommended pipeline
+
+### on PR created
+
+- Create preview of Storybook (by Netlify)
+- Create preview of web (by Gatsby Cloud)
+- Run CI(Continuous Integration) (by GitHub Actions)
+
+### on Merge
+
+- Deploy storybook files to Netlify (by Netlify)
+- Deploy web to Firebase Hosting (by Gatsby Cloud)
+
 ## License
 
 MIT
