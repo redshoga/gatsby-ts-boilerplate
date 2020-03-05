@@ -1,8 +1,16 @@
 import React from "react"
-import { TheHeader } from "./index"
+import { shallow } from "enzyme"
+import { TheHeader, TestAttrs } from "./index"
+import { select } from "../../test/utils"
+import { icon } from "../../test/mocks"
 
 describe("Header", () => {
-  it("renders correctly", () => {
-    expect(1).toBe(1)
+  const sampleTitle = "sample title 😻"
+  const shallowWrapper = shallow(<TheHeader title={sampleTitle} image={icon} />)
+
+  test("The props title renders correctly", () => {
+    expect(shallowWrapper.find(select(TestAttrs.Title)).text()).toBe(
+      sampleTitle
+    )
   })
 })
