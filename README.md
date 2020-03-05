@@ -1,6 +1,6 @@
 # gatsby-ts-boilerplate
 
-Gatsby + Typescript + Linter + Formatter + VSCode config + Testing framework + UI component explorer
+Gatsby + TypeScript + Linter + Formatter + VSCode config + Testing framework + UI component explorer
 
 This project was based on [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default).
 
@@ -13,14 +13,14 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
     ```shell
     git clone git@github.com:redshoga/gatsby-ts-boilerplate your-project-name
     ```
-    
+
     or
-    
+
     ```shell
     gatsby new your-project-name https://github.com/redshoga/gatsby-ts-boilerplate
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     ```shell
     cd your-project-name
@@ -34,14 +34,14 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
 
 - [x] TypeScript (strict: true) (using `gatsby-plugin-typescript`)
 - [x] Linters, Formatter (ESlint, stylelint, Prettier)
-- [ ] Storybook (UI component explorer)
+- [x] Storybook (UI component explorer)
 - [ ] Testing framework (Jest + Enzyme)
 - [x] Support SCSS (using `gatsby-plugin-sass`)
 
 ### 🏹 Other features
 
 - [x] Normalize.css
-- [x] VSCode config (Format *.css, *.scss, *.ts, *.tsx, *.js, *.jsx files on save)
+- [x] VSCode config (Format _.css, _.scss, _.ts, _.tsx, _.js, _.jsx files on save)
 - [x] Call `src/gatsby/node.ts` from `gatsby-node.js`
 - [x] Auto generate query type (using `gatsby-plugin-graphql-codegen`)
 - [x] Markdown pages sample code (with reference to the official [docs](https://www.gatsbyjs.org/docs/adding-markdown-pages/))
