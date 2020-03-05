@@ -35,7 +35,7 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
 - [x] TypeScript (strict: true) (using `gatsby-plugin-typescript`)
 - [x] Linters, Formatter (ESlint, stylelint, Prettier)
 - [x] Storybook (UI component explorer)
-- [ ] Testing framework (Jest + Enzyme)
+- [x] Testing framework (Jest + Enzyme)
 - [ ] CI config for GitHub Actions
 - [x] Support SCSS (using `gatsby-plugin-sass`)
 
