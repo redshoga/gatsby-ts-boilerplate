@@ -56,7 +56,7 @@ Example build page: https://gatsby-ts-boilerplate.web.app/
 
 ## Recommend VSCode extensions
 
-Please refer to `/.vscode/extensionts.json`.
+Please refer to `/.vscode/extensions.json`.
 
 ## Recommended pipeline
 
