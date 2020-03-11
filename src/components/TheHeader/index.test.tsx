@@ -10,7 +10,7 @@ describe("Header", () => {
 
   test("The props title renders correctly", () => {
     expect(shallowWrapper.find(select(TestAttrs.Title)).text()).toBe(
-      sampleTitle + "fail"
+      sampleTitle
     )
   })
 })
